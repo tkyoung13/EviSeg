@@ -2,7 +2,7 @@ export CUDA_VISIBLE_DEVICES=0
 #!/usr/bin/env bash
 echo "Running inference on" ${1}
 echo "Saving Results :" ${2}
-PYTHONPATH=$PWD:$PYTHONPATH python conflict_classification.py \
+PYTHONPATH=$PWD:$PYTHONPATH python conflict.py \
 	--dataset camvid \
     --arch network.deepv3.DeepWV3Plus \
     --inference_mode sliding \
