@@ -1,4 +1,4 @@
-# EviSeg
+# EviSeg Tutorial
 ## Calculation of the conflict
 The further insights and implementation details are provided in these python files.The following will illustrate how to compute the conflict value using a semantic segmentation model as an example.
 ## Installation 
